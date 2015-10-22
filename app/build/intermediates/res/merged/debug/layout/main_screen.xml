@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steele_fon"
+    tools:context="com.alex.gymwork.MainScreen" >
+    
+    <TextView
+        android:id="@+id/textview_main_screen_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/header_main"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f0f0f0"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_exercises"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_main_screen_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/button_exercises"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_programs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_exercises"
+        android:layout_alignRight="@+id/button_exercises"
+        android:layout_below="@+id/button_exercises"
+        android:text="@string/button_programs"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_stopwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_programs"
+        android:layout_alignRight="@+id/button_programs"
+        android:layout_below="@+id/button_programs"
+        android:text="@string/button_stopwatch"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_stopwatch"
+        android:layout_alignRight="@+id/button_stopwatch"
+        android:layout_below="@+id/button_stopwatch"
+        android:text="@string/button_about"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_about"
+        android:layout_alignRight="@+id/button_about"
+        android:layout_below="@+id/button_about"
+        android:text="@string/button_exit"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_exit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:drawableTop="@drawable/sound_on"
+        android:text="@string/music_on" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Alex/AndroidStudioProjects/GymWork/app/src/main/res/layout/main_screen.xml -->

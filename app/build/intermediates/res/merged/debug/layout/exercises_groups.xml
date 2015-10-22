@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/steele_fon"
+    tools:context="com.alex.gymwork.ExercisesGroups" >
+
+    <TextView
+        android:id="@+id/textview_exercises_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/exercises_groups_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_group_arms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/group_arms"
+                android:textSize="30sp"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                android:id="@+id/button_group_stomach"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/group_stomach"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_group_chest"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/group_chest"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_group_shoulders"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/group_shoulders"
+                android:textSize="30sp"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                android:id="@+id/button_group_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/group_back"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_group_legs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/group_legs"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Alex/AndroidStudioProjects/GymWork/app/src/main/res/layout/exercises_groups.xml -->

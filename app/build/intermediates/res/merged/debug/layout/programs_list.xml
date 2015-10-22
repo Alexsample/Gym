@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steele_fon"
+    tools:context="com.alex.gymwork.ProgramsListActivity" >
+
+    <Button
+        android:id="@+id/button_add_program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/add_program" />
+
+    <ListView
+        android:id="@+id/listview_programs"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/button_add_program"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview_program_title"
+        android:cacheColorHint="@android:color/transparent"
+        android:choiceMode="singleChoice">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_programs"
+        android:id="@+id/textview_program_title"
+        android:layout_alignParentTop="true"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Alex/AndroidStudioProjects/GymWork/app/src/main/res/layout/programs_list.xml -->

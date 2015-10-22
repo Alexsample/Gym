@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steele_fon"
+    tools:context="com.alex.gymwork.ProgramDescriptionActivity" >
+
+    <TextView
+        android:id="@+id/textview_exercises_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/listview_program_description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/linlay1"
+        android:layout_below="@+id/textview_program_description_title"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/prog_corners"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:choiceMode="singleChoice">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_add_week_day"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/program_description_add_week_day"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/button_add_exercise_in_program"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/program_description_add_exercise"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_add_data"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/program_description_add_data"
+                android:textSize="15sp"
+                tools:ignore="NestedWeights" />
+
+            <Button
+                android:id="@+id/button_save_data"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/program_description_save"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/program_description_title"
+        android:id="@+id/textview_program_description_title"
+        android:textSize="24sp"
+        android:textColor="#f0f0f0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

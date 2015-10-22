@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steele_fon"
+    tools:context="com.alex.gymwork.Stopwatch" >
+
+    <TextView
+        android:id="@+id/textview_stopwatch_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_stopwatch"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#f0f0f0"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_stopwatch"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/clock_shape"
+        android:minHeight="150dp" >
+
+        <TextView
+            android:id="@+id/textview_stopwatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="36dp"
+            android:text="@string/stopwatch_zero"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_start_stopwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/button_stop_stopwatch"
+        android:layout_alignRight="@+id/button_stop_stopwatch"
+        android:layout_below="@+id/relative_layout_stopwatch"
+        android:layout_marginTop="20dp"
+        android:text="@string/stopwatch_start"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_stop_stopwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/button_reset_stopwatch"
+        android:layout_alignRight="@+id/button_reset_stopwatch"
+        android:layout_below="@+id/button_start_stopwatch"
+        android:text="@string/stopwatch_pause"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_reset_stopwatch"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button_stop_stopwatch"
+        android:layout_centerHorizontal="true"
+        android:text="@string/stopwatch_restart"
+        android:textSize="30sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Alex/AndroidStudioProjects/GymWork/app/src/main/res/layout/stopwatch.xml -->

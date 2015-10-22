@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- Add data activity -->
+    <string name="set">Подход</string>
+    <string name="weight">Вес</string>
+    <string name="repeats">Повторы</string>
+    
+    
+    
+    <string name="app_name">GymWork</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main screen activity -->
+    <string name="header_main">Спортзал</string>
+    <string name="button_exercises">Упражнения</string>
+    <string name="button_programs">Программы</string>
+    <string name="button_stopwatch">Секундомер</string>
+    <string name="button_settings">Настройки</string>
+    <string name="button_about">О программе</string>
+    <string name="button_exit">Выход</string>
+
+    <!-- Exercises groups activity -->
+    <string name="exercises_groups_title">Группы мышц</string>
+    <string name="group_arms">Руки</string>
+    <string name="group_shoulders">Плечи</string>
+    <string name="group_stomach">Живот</string>
+    <string name="group_back">Спина</string>
+    <string name="group_chest">Грудь</string>
+    <string name="group_legs">Ноги</string>
+    <!-- Exercises list activity -->
+    <string name="title_exercises_list">Список упражнений</string>
+    <string name="add_exercise">Добавить упражнение</string>
+    <string name="delete_exercise">Удалить упражнение</string>
+    <!-- Exercises description activity -->
+    <string name="previous">Назад</string>
+    <string name="next">Вперед</string>
+
+    <!-- Programs activity -->
+    <string name="title_programs">Программы</string>
+    <string name="add_program">Добавить программу</string>
+    <string name="delete_program">Удалить программу</string>
+    <!-- Program view activity -->
+    <string name="program_description_title">Содержание программы</string>
+    <string name="program_description_add_week_day">Добавить день недели</string>
+    <string name="program_description_add_exercise">Добавить упражнение</string>
+    <string name="program_description_add_data">Добавить данные</string>
+    <string name="program_description_description">Тренировка</string>
+    <string name="program_description_delete">Удалить</string>
+    <string name="program_description_save">Сохранить</string>
+
+    <!-- Timer activity -->
+    <string name="stopwatch_start">Старт</string>
+    <string name="stopwatch_pause">Пауза</string>
+    <string name="stopwatch_restart">Рестарт</string>
+    <string name="stopwatch_zero">0:00:000</string>
+
+    <!-- Settings -->
+    <string name="music_on">Музыка: ВКЛ</string>
+    <string name="music_off">Музыка: ВЫКЛ</string>
+
+    <!-- About activity -->
+    <string name="author">Автор: Alex</string>
+    <string name="year">Год создания: 2015</string>
+
+    <!-- Remain -->
+    <string name="exer_add">Добавить</string>
+    <string name="cancel">Отмена</string>
+    <string name="exer_name">Название</string>
+    <string name="description">Описание</string>
+    <string name="del">Удалить</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="title_activity_gym_splash">GymSplashActivity</string>
+    <string name="title_activity_exercises_buttons">ExercisesButtonsActivity</string>
+    <string name="title_activity_exercises_list">ExercisesListActivity</string>
+    <string name="title_activity_exe_descr">ExeDescrActivity</string>
+    <string name="title_activity_programms">ProgrammsActivity</string>
+    <string name="title_activity_programm_view">ProgrammViewActivity</string>
+    <string name="title_activity_add_data">AddDataActivity</string>
+
+</resources>
